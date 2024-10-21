@@ -3,6 +3,7 @@
 Start by Cloning the repository
 
 cd /home/backup
+
 git clone https://github.com/TechDev12/Gdrive-rclone.git
 
 if you already have rclone config or you wish to modify it you can configure rclone manually using "rclone config"
