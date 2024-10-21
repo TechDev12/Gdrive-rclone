@@ -17,7 +17,7 @@ show_help() {
     echo ""
     echo "Full Example Below"    
     echo ""
-    echo "./backup_to_gd.sh --backup_path=/home/abjad/files --encryption_key=465123Maroun --remote_name=Google_Drive --service_account_file_path=/home/l0rd/service.json"
+    echo "./backup_to_gd.sh --backup_path=/home/backup/tmp --encryption_key=465123Maroun --remote_name=Google_Drive --service_account_file_path=/home/backup/service.json"
     echo ""
     echo ""
     echo ""    
