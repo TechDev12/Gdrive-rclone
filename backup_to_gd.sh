@@ -88,9 +88,9 @@ then
     echo "rclone is not installed. Installing now..."
     
     # Check if the user has sudo privileges (prompt for password if necessary)
-    if sudo -v; then
+    if true; then
         # Install rclone using curl
-        curl https://rclone.org/install.sh | sudo bash
+        curl https://rclone.org/install.sh | bash
 
         # Verify the installation
         if command -v rclone &> /dev/null; then
