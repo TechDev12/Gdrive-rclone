@@ -34,7 +34,7 @@ Options:
 
 Full Example Below
 
-./backup_to_gd.sh --backup_path=/home/abjad/files --encryption_key=Your_enc_here --remote_name=Google_Drive --service_account_file_path=/home/l0rd/service.json
+./backup_to_gd.sh --backup_path=/home/backup/tmp --encryption_key=your_enc_key_here --remote_name=Google_Drive --service_account_file_path=/home/backup/Gdrive-rclone/service.json
 
 Script must be run as root thus will genereate a run.sh that you can add using a cronjob 
 
